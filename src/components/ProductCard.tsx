@@ -1,7 +1,8 @@
 import React from "react";
 import { Product } from "../models/Product";
 import { useAppContext } from "../context/AppContext";
-import { FaHeart, FaRegHeart } from "react-icons/fa";
+import { FaHeart } from 'react-icons/fa/index.js';
+import { FaRegHeart } from 'react-icons/fa/index.js';
 
 const ProductCard: React.FC<{ product: Product }> = ({ product }) => {
   // Destructure necessary context values like favorites, cart, and functions

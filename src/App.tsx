@@ -4,7 +4,7 @@ import ProductCard from "./components/ProductCard";
 import ThemeToggle from "./components/ThemeToggle"; 
 import { AppProvider, useAppContext } from "./context/AppContext"; 
 import "./styles/styles.css"; 
-import { FaShoppingCart } from "react-icons/fa";
+import { FaShoppingCart } from 'react-icons/fa/index.js';
 
 const CartHeader = () => {
   const { cart, removeFromCart } = useAppContext();
